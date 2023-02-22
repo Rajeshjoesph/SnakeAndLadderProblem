@@ -1,12 +1,11 @@
-﻿using PlayerRollDies;
-
-namespace PlayerRollDies
+﻿using SankeAndLadder;
+namespace PlayersOption
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            RollDies.Dies();
+            PlayerPosition.player();
         }
     }
 }
